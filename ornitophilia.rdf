@@ -1,0 +1,385 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia/"
+     xml:base="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#birdAvatar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#birdAvatar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#AvatarChant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#expressesSentiment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#expressesSentiment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Sentiment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasAvatar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasAvatar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#AvatarChant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasChant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasChant">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#AvatarChant"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Chant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasContent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasContent">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasObject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasObservation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasObservation">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasSubject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasSubject">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasTimeSpan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasTimeSpan">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#TimeSpan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#tookPlaceAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#tookPlaceAt">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Place"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#_label -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#_label">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Place"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#TimeSpan"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#answersQuestion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#answersQuestion">
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasFormat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#hasFormat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#isAbout -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#isAbout">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#situatedPortrait -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#situatedPortrait">
+        <rdfs:comment>A discursive description of the positioning of the observer, prompted by the questions: &quot;what is your relationship with the place&quot;? and &quot;If you were a bird what bird would you be?&quot;</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#AvatarChant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#AvatarChant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Chant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Chant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observant">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observed"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observed"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#PDV"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Point -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Point">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Sentiment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Sentiment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Text -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Text">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#TimeSpan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#TimeSpan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Content"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Anissa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Anissa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Jackdaw -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Jackdaw">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Laura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Laura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Maddalena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Maddalena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Pigeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Pigeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Rebecca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Rebecca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Human"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Seagull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Seagull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Sparrow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Sparrow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Swift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Swift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Turtledove -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Turtledove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Bird"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/xln105/ontologies/2025/0/ornitophilia#Observed"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
